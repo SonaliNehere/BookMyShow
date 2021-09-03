@@ -1,0 +1,35 @@
+difference in tailwind and bootstrap => tailwind is flexible while in bootstrapwe can use
+ only bootstrap features
+
+size of react file is big like 3mb. so telwind remove unwanted css and reduce file size
+
+telwind uses postcss and bootstrap uses sas
+
+layout first approach
+
+react uses javascript to update your components or to navigate to different pages,
+ we cannot use anchor
+
+react router dom -> https://www.npmjs.com/package/react-router-dom
+react router dom install-> npm i react-router-dom
+
+HOC -Higher Order components
+HOC is responsible to render your layout
+HOC take some component , do something with it and return component
+
+OnlineEntertainment , Premier delete
+
+install headless ui -> npm install @headlessui/react
+
+make changes in javascript -> while deployment it will ignore viruses
+"build": "CI=false && craco build"
+
+npm i axios
+
+websites->
+headless ui -> https://headlessui.dev/
+tmdb api -> https://www.themoviedb.org/documentation/api
+cra env -> https://create-react-app.dev/docs/adding-custom-environment-variables/
+axios -> https://www.npmjs.com/package/axios
+razorpay -> https://razorpay.com/
+
