@@ -28,7 +28,7 @@ const HomePage = () => {
         
         requestPopularMovies();
     }, []);
-    console.log({ popularMovies });
+    //console.log({ popularMovies });
 
     useEffect(() => {
         const requestTopRatedMovies = async () => {
@@ -39,9 +39,16 @@ const HomePage = () => {
         
         requestTopRatedMovies();
     }, []);
-    console.log({ topRatedMovies });
+    //console.log({ topRatedMovies });
 
+    useEffect(() => {
+        const requestUpcomingMovies = async () => {
+          const getUpcomingMovies = await axios.get("/movie/upcoming");
+          setUpcomingMovies(getUpcomingMovies.data.results);
+        };
     
+        requestUpcomingMovies();
+      }, []);
     //console.log({ upcomingMovies });
 
 

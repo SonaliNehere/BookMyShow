@@ -141,9 +141,9 @@ export const Movie = () => {
                         Applicable offers
                     </h2>
 
-                    <div classname="flex flex-col gap-3 lg:flex-row">
+                    <div className="flex flex-col gap-3 lg:flex-row">
 
-                        <div classname="flex item-start gap-2 bg-yellow-100 p-3  
+                        <div className="flex items-start gap-2 bg-yellow-100 p-3  
                             border-yellow-400 border-dashed rounded-md">
                             <div className="w-8 h-8">
                                 < FaCcVisa className="w-full h-full" />
@@ -157,7 +157,7 @@ export const Movie = () => {
                                 </p>
                             </div>
                         </div>
-                        <div classname="flex item-start gap-2 bg-yellow-100 p-3  
+                        <div className="flex items-start gap-2 bg-yellow-100 p-3  
                             border-yellow-400 border-dashed rounded-md">
                             <div className="w-8 h-8">
                                 <FaCcApplePay className="w-full h-full" />  
